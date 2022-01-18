@@ -8,16 +8,20 @@ min-height: 100vh; text-rendering: optimizeSpeed }
 img { width: 100%; height: auto; display: block }
 h1, h2, h3, h4 { width: 100% }
 input, button, textarea, select { font: inherit }
+
+/* ================= ENDS ================ */
+
 /* Desktops */
 @media (min-width: 768px) { body { padding: 4% 20% } }
 	
 /* Mobiles */
 @media (max-width: 767px) { body { padding: 12% 8% } }
-/* ================= ENDS ================ */
 
-body { font-family: sans-serif; }  
+body { font-family: sans-serif; background-color: lightcyan;}
+
 
 h1 {
+    color : blue;
     font-size: 64px;
     margin-bottom: 48px;
     font-weight: normal;
@@ -25,6 +29,7 @@ h1 {
 }
 
 h2 {
+    color: blue;
     font-size: 26px;
     margin-top: 30px;
     margin-bottom: 4px;
@@ -32,6 +37,7 @@ h2 {
 }
 
 h3 {
+    color: blue;
     font-size: 24px;
     margin-top: 42px;
     margin-bottom: 4px;
